@@ -17,6 +17,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
+* {
+  font-family: "Open Sans", "Poppins";
+}
+
 body {
   margin: 0;
   min-width: 320px;
@@ -73,6 +77,11 @@ body {
   border-bottom: 1px solid #ddd;
 }
 
+.border-grey {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
 .loader {
   position: absolute;
   left: 50%;
@@ -89,6 +98,7 @@ body {
   font-family: "Open Sans", "Poppins", sans-serif;
   font-size: 13px;
   text-transform: capitalize;
+  font-weight: bold;
 }
 
 .justify-space-btwn {
@@ -99,6 +109,10 @@ body {
   padding: 0 2rem;
 }
 
+.py {
+  padding: 2rem 0;
+}
+
 .mx {
   margin: 0 1rem;
 }
@@ -107,9 +121,17 @@ body {
   margin: 2rem 0;
 }
 
+.my-sm {
+  margin: 1rem 0;
+}
 .ip-place-bottom {
   justify-content: flex-end;
   font-size: 40px;
   margin-bottom: 1em;
   font-family: "Poppins", sans-serif;
+}
+
+.logo-size-md {
+  width: 100px;
+  height: 100px;
 }

@@ -8,6 +8,7 @@ const Button = (props) => {
       sx={{ ...props.style }}
       variant="contained"
       disableElevation
+      disabled={props.disabled}
     >
       {props.text}
     </Btn>
